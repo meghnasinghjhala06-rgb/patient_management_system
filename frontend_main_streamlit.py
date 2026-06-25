@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # FastAPI backend (from main.py)
-API_BASE_URL = "http://127.0.0.1:8000"
+API_BASE_URL = "https://patient-management-system-1-bor7.onrender.com"
 
 st.set_page_config(page_title="Patient Management System", layout="wide")
 st.title("Patient Management System")
